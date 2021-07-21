@@ -1,0 +1,4 @@
+### ignore Images ###
+# JPEG
+*.jpg
+*.jpeg
