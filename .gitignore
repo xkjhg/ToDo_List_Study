@@ -2,3 +2,6 @@
 # JPEG
 *.jpg
 *.jpeg
+
+### ignore Info ###
+config.js
