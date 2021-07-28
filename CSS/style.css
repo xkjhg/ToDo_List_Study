@@ -3,8 +3,40 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .hidden {
   display: none;
+}
+
+#clock {
+  display: inline;
+  margin: 0;
+  font-size: 120px;
+  color: white;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+#login-form > input:first-child {
+  left: 50%;
+  width: 300px;
+  height: 50px;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+
+#login-form > input:first-child::placeholder {
+  text-align: center;
+  color: white;
+  font-size: 25px;
 }
